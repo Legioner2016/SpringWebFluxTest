@@ -1,0 +1,16 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<!--Это - единственная страница проекта, к которой подключается ReactJs (после компиляции), все дела идут в Reactjs-->
+<head>
+    <meta charset="UTF-8" http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8"/>
+    <title>Hello demo</title>
+    
+   	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    
+</head>
+<body>
+    <div id="app"/>
+    <script th:src="@{bundle.js}"  > </script>
+    <script src="bundle.js"  > </script>
+</body>
+</html>
